@@ -41,8 +41,8 @@ The application follows a standard **MERN Stack (3-Tier)** architecture:
 
 ```mermaid
 graph TD
-    Client[React Client (Vite)] <-->|REST API / JSON| Server[Express Server]
-    Server <-->|Mongoose ODM| DB[(MongoDB)]
+    Client["React Client (Vite)"] <-->|"REST API / JSON"| Server["Express Server"]
+    Server <-->|"Mongoose ODM"| DB[("MongoDB")]
     
     subgraph Frontend
     Client
